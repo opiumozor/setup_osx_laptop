@@ -35,6 +35,7 @@ atom_packages_to_install=(
   atomic-emacs
   file-icons
   linter
+  language-terraform
 )
 
 ## Check if MacOS
@@ -137,7 +138,7 @@ else
 fi
 
 ## open docker for full setup
-open /Applications/Docker.app
+#open /Applications/Docker.app
 
 ## Install & setup Zsh // SHOULD BE LAST STEP
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
