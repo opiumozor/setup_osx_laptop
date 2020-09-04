@@ -36,6 +36,7 @@ atom_packages_to_install=(
   file-icons
   linter
   language-terraform
+  highlight-selected
 )
 
 ## Check if MacOS
