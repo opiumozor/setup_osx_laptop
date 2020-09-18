@@ -18,6 +18,7 @@ apps_to_install=(
   ## The following is for Primer
   postman
   zoomus
+  aws-vault
 )
 
 packages_to_install=(
@@ -27,8 +28,15 @@ packages_to_install=(
   tree
   ansible
   kubectl
+  helm
+  warrensbox/tap/tfswitch
   ## The following is for Primer
   yarn
+  heroku/brew/heroku
+  aws-iam-authenticator
+  awscli
+  jq
+  jmeter
 )
 
 atom_packages_to_install=(
