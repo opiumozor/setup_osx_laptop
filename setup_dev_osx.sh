@@ -45,6 +45,10 @@ atom_packages_to_install=(
   linter
   language-terraform
   highlight-selected
+  python-tools
+  atom-black
+  atom-isort
+  autocomplete-python
 )
 
 ## Check if MacOS
